@@ -1,0 +1,53 @@
+.onlinePlayers {
+  background-color: transparent !important;
+  width: 160px;
+  color: white;
+  font-size: medium;
+  position: fixed !important;
+  bottom: 1vh;
+  right: 1vw;
+}
+
+.rightPanel {
+  position: fixed !important;
+  height: 90vh;
+  width: 30vw;
+  bottom: 5vh;
+  right: 5vw;
+  overflow: scroll;
+  overflow-x: hidden;
+  background-color: transparent !important;
+}
+
+.rightPanel::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.rightPanel::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+
+.leftPanel {
+  position: relative !important;
+  height: 90vh;
+  width: 500px;
+  top: 5vh;
+  left: 5vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: transparent !important;
+}
+
+.leftPanel::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.leftPanel::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+
+.ant-menu-horizontol {
+  line-height: 35px !important;
+}
